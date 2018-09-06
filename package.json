@@ -1,0 +1,32 @@
+{
+    "name": "outdoor_gear_list",
+    "version": "1.0.0",
+    "description": "Search used outdoor gear and list your own",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "start": "node server.js"
+    },
+    "author": "Riley Pelosi",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^0.8.7",
+        "bcryptjs": "^2.3.0",
+        "body-parser": "^1.15.2",
+        "events": "^1.1.1",
+        "express": "^4.14.0",
+        "mongodb": "^2.2.9",
+        "mongoose": "^4.5.10",
+        "passport": "^0.3.2",
+        "passport-http": "^0.3.0"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "chai-http": "^4.2.0",
+        "faker": "^3.1.0",
+        "mocha": "^5.2.0"
+    },
+    "engines": {
+        "node": "^8.2.1"
+    }
+}
